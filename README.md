@@ -3,8 +3,8 @@
 本项目需要在zcu104上安装官方pynq镜像，具体参考官方教程，官方系统镜像下载链接：https://download.amd.com/opendownload/pynq/zcu104_v3.1.1.zip \
 
 # 重要代码文件夹说明
-platform中存储的是基础Vivado平台；\
-overlay中存储的是Vitis HLS代码及配置文件；\
+platform中存储的是基础Vivado平台（本项目采用2024.2版本）；\
+overlay中存储的是Vitis HLS代码及配置文件（本项目采用2024.2版本）；\
 RapidReplication中包含链接完成的.bit和.hwh文件，推荐直接使用（放在~/pynq/overlays/my_project中）；\
 pynq中为项目运行代码，直接导入进jupyter notebook中使用；
 
